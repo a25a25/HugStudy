@@ -9,13 +9,15 @@
         height: 200px;
     }
     .header-inner {
-        margin: 20px 70px;
+        margin-right: 70px;
+        padding: 0;
         background-color: #ffffff;
     }
     .a,
     .b,
     .c {
         float: none;
+        margin: 10px;
     }
     .left {
         float: none;

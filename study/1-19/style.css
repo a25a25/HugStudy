@@ -48,12 +48,13 @@ body {
  {
     width: 140px;
     height: 40px;
-    margin: 5px;
+    margin: 0 0 10px 0;
     border: 5px solid #ffffff;
 }
 .right-inner {
     float: left;
-    margin: 40px 60px 40px 40px;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 .right {
     float: left;
