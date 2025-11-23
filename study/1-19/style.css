@@ -53,14 +53,14 @@ body {
 }
 .right-inner {
     float: left;
-    margin-top: 40px;
-    margin-left: 40px;
 }
 .right {
+    background-color: #C2FFC8;
     float: left;
+    box-sizing: border-box;
     height: 100%;
     width: 250px;
-    background-color: #C2FFC8;
+    padding: 40px 60px 40px 40px;  
 }
 .footer {
     height: 100px;
