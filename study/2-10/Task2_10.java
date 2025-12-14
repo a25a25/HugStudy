@@ -19,7 +19,7 @@ public class Task2_10 {
 
         // ③ 以下のwhile文の処理について、何をしているのかコメントを記入してください。
         /*
-        * [配列i が50以下の場合、配列i を繰り返し出力する。] 
+        * [iが50以下の間、iの値を出力する処理を繰り返す] 
         */
         int i = 1;
         while(i <= 50) {
@@ -37,9 +37,9 @@ public class Task2_10 {
         * 9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
         for (int n = 5; n <= 9; n++) {
-    	    System.out.print("*" + n + "||");
+    	    System.out.print(n + "||");
             for (int j = 1; j <= 9; j++) {
-    	        System.out.print( "|" + (n * j) + "|");
+    	        System.out.print( (n * j) + "|");
 	        }
 	        System.out.println();
         }   
