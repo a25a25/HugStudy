@@ -22,8 +22,8 @@ public class Task2_15 {
         
         // ④ bike1とbike2のtypeを変更する(出力結果通りに)
         
-        bike1.type = "250cc";
-        bike2.type = "250cc";
+        bike1.run();   // bike1は走行中
+        bike2.stop(); 
        
 
         System.out.println("car1は" + red + "色で" + bike1.type + "タイプです。 現在" + bike1.check());
